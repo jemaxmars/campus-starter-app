@@ -4,7 +4,7 @@ console.log('Campus Starter App loaded successfully!');
 
 // Simple example functionality
 document.addEventListener('DOMContentLoaded', function() {
-    const app = document.getElementById('app');
+    const nav = document.getElementById('nav');
     
     // Add some interactive functionality
     const diningButton = document.createElement('button');
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         alert('Hello from your webpack app!');
     });
     
-    app.appendChild(diningButton);
+    nav.appendChild(diningButton);
 
     const keyCampusButton = document.createElement('button');
     keyCampusButton.textContent = 'Key Campus Buildings';
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         alert('Hello from your webpack app!');
     });
 
-    app.appendChild(keyCampusButton);
+    nav.appendChild(keyCampusButton);
 
     const campusButton = document.createElement('button');
     campusButton.textContent = 'Campus Life & Events';
@@ -29,6 +29,6 @@ document.addEventListener('DOMContentLoaded', function() {
         alert('Hello from your webpack app!');
     });
 
-    app.appendChild(campusButton);
+    nav.appendChild(campusButton);
 });
 
