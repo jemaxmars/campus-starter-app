@@ -36,14 +36,18 @@ A modern web application built with Webpack, Babel, and ES6+.
 
 ```
 campus-starter-app/
-├── src/
-│   ├── index.html      # HTML template
-│   ├── index.js        # Main JavaScript entry point
-│   └── styles.css      # Main stylesheet
-├── dist/               # Build output (generated)
-├── webpack.config.js   # Webpack configuration
-├── .babelrc           # Babel configuration
-└── package.json       # Project dependencies and scripts
+├── 📄 index.html           # HTML template (root level)
+├── 📁 src/
+│   ├── 📄 index.js         # Main JavaScript entry point
+│   ├── 📁 assets/          # Static assets (images, fonts, etc.)
+│   └── 📁 components/      # Reusable components
+│       └── 📁 App/
+│           ├── 📄 App.js   # Main App component
+│           └── 📄 App.css  # App component styles
+├── 📁 dist/               # Build output (generated)
+├── 📄 webpack.config.js   # Webpack configuration
+├── 📄 .babelrc           # Babel configuration
+└── 📄 package.json       # Project dependencies and scripts
 ```
 
 ## Development

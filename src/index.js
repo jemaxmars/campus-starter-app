@@ -1,17 +1,15 @@
-import './styles.css';
+import { App } from './components/App/App.js';
 
 console.log('Campus Starter App loaded successfully!');
 
-// Simple example functionality
+// Initialize the app when DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
-    const app = document.getElementById('app');
+    const appContainer = document.getElementById('app');
     
-    // Add some interactive functionality
-    const button = document.createElement('button');
-    button.textContent = 'Click me!';
-    button.addEventListener('click', function() {
-        alert('Hello from your webpack app!');
-    });
+    // Clear the existing content
+    appContainer.innerHTML = '';
     
-    app.appendChild(button);
+    // Create and render the App component
+    const app = new App();
+    app.render(document.body);
 });
