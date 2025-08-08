@@ -10,12 +10,14 @@ A modern web application built with Webpack, Babel, and ES6+.
 ## Getting Started
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/jemaxmars/campus-starter-app.git
    cd campus-starter-app
    ```
 
 2. **Install dependencies:**
+
    ```bash
    npm install
    ```
@@ -53,6 +55,7 @@ campus-starter-app/
 ## Development
 
 The app uses:
+
 - **Webpack** for bundling and development server
 - **Babel** for ES6+ transpilation
 - **CSS Loader** for importing stylesheets
