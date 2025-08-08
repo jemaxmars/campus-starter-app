@@ -56,7 +56,7 @@ campus-starter-app/
 
 The app uses a **HTML-first approach**:
 
-- **HTML markup** is written directly in `index.html` 
+- **HTML markup** is written directly in `index.html`
 - **JavaScript** is used only for interactivity and behavior
 - **Webpack** for bundling and development server
 - **Babel** for ES6+ transpilation
@@ -64,8 +64,9 @@ The app uses a **HTML-first approach**:
 - **HTML Webpack Plugin** for HTML template processing
 
 This matches traditional web development patterns where:
+
 - Structure is defined in HTML
-- Styling is handled by CSS  
+- Styling is handled by CSS
 - Behavior is added with JavaScript
 
 Hot reloading is enabled in development mode, so changes will be reflected immediately in the browser.
