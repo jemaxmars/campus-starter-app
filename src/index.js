@@ -1,34 +1,10 @@
 import { App } from "./components/App/App.js";
+import "./vendor/index.css";
 
 console.log("Campus Starter App loaded successfully!");
 
-// Simple example functionality
-document.addEventListener('DOMContentLoaded', function() {
-    const nav = document.getElementById('nav');
-    
-    // Add some interactive functionality
-    const diningButton = document.createElement('button');
-    diningButton.textContent = 'Dining Halls & Cafes';
-    diningButton.addEventListener('click', function() {
-        alert('Hello from your webpack app!');
-    });
-    
-    nav.appendChild(diningButton);
-
-    const keyCampusButton = document.createElement('button');
-    keyCampusButton.textContent = 'Key Campus Buildings';
-    keyCampusButton.addEventListener('click', function() {
-        alert('Hello from your webpack app!');
-    });
-
-    nav.appendChild(keyCampusButton);
-
-    const campusButton = document.createElement('button');
-    campusButton.textContent = 'Campus Life & Events';
-    campusButton.addEventListener('click', function() {
-        alert('Hello from your webpack app!');
-    });
-
-    nav.appendChild(campusButton);
+// Initialize the app when DOM is ready
+document.addEventListener("DOMContentLoaded", function () {
+  // Create and initialize the App component
+  new App();
 });
-
